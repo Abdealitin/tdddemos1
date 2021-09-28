@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class CheckPassword {
 	public static void main(String []args) {
-	String regex = "[A-S][02468][a-zA-Z0-9+#$]*1";
+	String regex = "[A-S][02468][a-zA-Z0-9#$]*1";
 	Scanner sc = new Scanner(System.in);
 	String password = sc.nextLine();
 	Pattern pattern = Pattern.compile(regex);
